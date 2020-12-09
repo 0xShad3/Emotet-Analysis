@@ -1,0 +1,38 @@
+[+] Decryption phase 1
+0x40d000 => 
+--%S
+Content-Disposition: form-data; name="%s"; filename="%s"
+Content-Type: application/octet-stream
+
+
+
+0x40d090 => %u.%u.%u.%u
+0x40d0c0 => 
+--%S--
+0x40d0f0 => User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: text/html,application/xhtml
+0x40d280 => POST
+0x40d2a0 => %s:Zone.Identifier
+0x40d2c0 => %s\*
+0x40d2d0 => %s\%s
+0x40d300 => WinSta0\Default
+0x40d330 => %s_%08X
+
+
+[+] Decryption phase 2
+0x40d7e0 => urlmon.dll
+0x40d800 => userenv.dll
+0x40d830 => shlwapi.dll
+0x40d870 => wtsapi32.dll
+0x40d890 => advapi32.dll
+0x40d8b0 => crypt32.dll
+0x40d8e0 => wininet.dll
+0x40d910 => shell32.dll
+0x40d940 => %s\%s%x%x.exe
+0x40d970 => "%s\%s.exe"
+0x40d990 => %s\%s.exe
+0x40d9c0 => %s\%s
+0x40d9f0 => SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+0x40da50 => %s\%s%x.exe
+0x40da80 => 0ha
+0x40db00 => "%s" %s
